@@ -1,2 +1,2 @@
 # Cours-react
-Pensez a remplir le champ token dans config.json 
+Pensez a remplir le champ token dans un fichier config.json 
