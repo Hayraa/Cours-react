@@ -3,7 +3,7 @@ const fs =require('fs');
 
 module.exports={
   name:'prefix',
-  description:'Ping commande',
+  description:'prefix commande',
   execute(message,args){
     let prefixes = JSON.parse(fs.readFileSync("./prefix.json","utf8"));
     if (!prefixes[message.guild.id]) {

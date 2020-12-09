@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const axios=require('axios');
 module.exports={
-  name:'jokescategories',
+  name:'jokecategorie',
   description:'JokesCategories commande',
   execute(message,args){
     axios.get("http://api.icndb.com/categories")
